@@ -5,6 +5,8 @@ export interface Configuration {
 	recordScreenViews: boolean
 	trackAppLifecycleEvents: boolean
 	trackAttributionData: boolean
+	versionName: string
+	versionCode: string
 	debug: boolean
 	flushAt: number
 

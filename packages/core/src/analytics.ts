@@ -45,6 +45,16 @@ export module Analytics {
 		 */
 		flushAt?: number
 
+    /**
+     * The app's version name eg 1.0.0'
+     */
+    versionName?: string
+
+    /**
+     * The app's version code eg 1234'
+     */
+    versionCode?: string
+
 		/**
 		 * iOS specific settings.
 		 */

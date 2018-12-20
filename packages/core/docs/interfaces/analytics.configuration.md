@@ -1,4 +1,4 @@
-[@segment/analytics-react-native](../README.md) > [Configuration](../interfaces/analytics.configuration.md)
+[@sonder/analytics-react-native](../README.md) > [Configuration](../interfaces/analytics.configuration.md)
 
 # Interface: Configuration
 
@@ -18,6 +18,8 @@
 * [trackAppLifecycleEvents](analytics.configuration.md#trackapplifecycleevents)
 * [trackAttributionData](analytics.configuration.md#trackattributiondata)
 * [using](analytics.configuration.md#using)
+* [versionCode](analytics.configuration.md#versioncode)
+* [versionName](analytics.configuration.md#versionname)
 
 ---
 
@@ -30,7 +32,7 @@
 **● android**: * `undefined` &#124; `object`
 *
 
-*Defined in analytics.ts:69*
+*Defined in analytics.ts:79*
 
 Android specific settings.
 
@@ -66,7 +68,7 @@ ___
 **● ios**: * `undefined` &#124; `object`
 *
 
-*Defined in analytics.ts:51*
+*Defined in analytics.ts:61*
 
 iOS specific settings.
 
@@ -78,9 +80,9 @@ ___
 **● recordScreenViews**: * `undefined` &#124; `false` &#124; `true`
 *
 
-*Defined in analytics.ts:17*
+*Defined in analytics.ts:19*
 
-Whether the analytics client should automatically track application lifecycle events, such as "Application Installed", "Application Updated" and "Application Opened".
+Whether the analytics client should automatically make a screen call when a view controller is added to a view hierarchy. Because the iOS underlying implementation uses method swizzling, we recommend initializing the analytics client as early as possible.
 
 Disabled by default.
 
@@ -94,7 +96,7 @@ ___
 
 *Defined in analytics.ts:26*
 
-Whether the analytics client should automatically make a screen call when a view controller is added to a view hierarchy. Because the iOS underlying implementation uses method swizzling, we recommend initializing the analytics client as early as possible.
+Whether the analytics client should automatically track application lifecycle events, such as "Application Installed", "Application Updated" and "Application Opened".
 
 Disabled by default.
 
@@ -122,6 +124,30 @@ ___
 *Defined in analytics.ts:37*
 
 Register a set of integrations to be used with this Analytics instance.
+
+___
+<a id="versioncode"></a>
+
+### `<Optional>` versionCode
+
+**● versionCode**: * `undefined` &#124; `string`
+*
+
+*Defined in analytics.ts:56*
+
+The app's version code eg 1234'
+
+___
+<a id="versionname"></a>
+
+### `<Optional>` versionName
+
+**● versionName**: * `undefined` &#124; `string`
+*
+
+*Defined in analytics.ts:51*
+
+The app's version name eg 1.0.0'
 
 ___
 

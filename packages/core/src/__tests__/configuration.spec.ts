@@ -9,6 +9,8 @@ it('uses the default configuration', async () => {
 		recordScreenViews: false,
 		trackAppLifecycleEvents: false,
 		trackAttributionData: false,
+		versionName: '',
+		versionCode: '',
 		writeKey,
 
 		android: {
@@ -29,6 +31,8 @@ it('produces a valid configuration', async () => {
 		recordScreenViews: true,
 		trackAppLifecycleEvents: true,
 		trackAttributionData: true,
+		versionName: '1.0',
+		versionCode: '1234',
 
 		android: {
 			collectDeviceId: false,
@@ -46,6 +50,8 @@ it('produces a valid configuration', async () => {
 		recordScreenViews: true,
 		trackAppLifecycleEvents: true,
 		trackAttributionData: true,
+		versionName: '1.0',
+		versionCode: '1234',
 		writeKey,
 
 		android: {

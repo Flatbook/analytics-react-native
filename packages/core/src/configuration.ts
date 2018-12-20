@@ -27,6 +27,8 @@ export const configure = async (
 		trackAppLifecycleEvents = false,
 		trackAttributionData = false,
 		using = [],
+		versionName = '',
+		versionCode = '',
 
 		ios = {},
 		android = {}
@@ -44,6 +46,8 @@ export const configure = async (
 		recordScreenViews,
 		trackAppLifecycleEvents,
 		trackAttributionData,
+		versionCode,
+		versionName,
 		writeKey,
 
 		android: defaults.android(android),
