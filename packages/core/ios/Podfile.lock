@@ -1,0 +1,21 @@
+PODS:
+  - SonderAnalytics (3.7.0-beta.2)
+
+DEPENDENCIES:
+  - SonderAnalytics (from `https://github.com/Flatbook/analytics-ios.git`)
+
+EXTERNAL SOURCES:
+  SonderAnalytics:
+    :git: https://github.com/Flatbook/analytics-ios.git
+
+CHECKOUT OPTIONS:
+  SonderAnalytics:
+    :commit: d53c6ca0b1af5aa81b37d733668169d62b78ae09
+    :git: https://github.com/Flatbook/analytics-ios.git
+
+SPEC CHECKSUMS:
+  SonderAnalytics: c8b253e8fae1887f9ed803e9ac28cd60fb50b15d
+
+PODFILE CHECKSUM: 236030926084c03441569e96c863c7f2e80bda36
+
+COCOAPODS: 1.5.3
