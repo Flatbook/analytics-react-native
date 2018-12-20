@@ -69,6 +69,14 @@ class RNAnalyticsModule(context: ReactApplicationContext): ReactContextBaseJavaM
             builder.logLevel(Analytics.LogLevel.VERBOSE)
         }
 
+        if(options.hasKey("versionName")) {
+            builder.versionName(options.getString("versionName"))
+        }
+
+        if(options.hasKey("versionCode")) {
+            builder.versionCode(options.getInt("versionCode"))
+        }
+
         try {
             Analytics.setSingletonInstance(
                 RNAnalytics.buildWithIntegrations(builder)
