@@ -33,12 +33,13 @@ repositories {
         url "$rootDir/../node_modules/react-native/android"
         name 'React Native (local)'
     }
+    maven { url "https://jitpack.io" }
     mavenCentral()
 }
 
 
 dependencies {
-    api 'com.segment.analytics.android:analytics:4.+'
+    api 'com.github.Flatbook:analytics-android:master-SNAPSHOT'
 
     api 'com.facebook.react:react-native:+'
     api 'org.jetbrains.kotlin:kotlin-stdlib:1.2.+'
