@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.1.0"></a>
+
+# [0.1.0](https://github.com/flatbook/analytics-react-native/compare/v0.0.1...v0.1.0) (2019-02-22)
+
+### Features
+
+- ignore pods ([08e8b03](https://github.com/flatbook/analytics-react-native/commit/08e8b03))
+- point analyics library at sonder fork ([5837c85](https://github.com/flatbook/analytics-react-native/commit/5837c85))
+- point core android package at Sonder fork ([fe7f8fe](https://github.com/flatbook/analytics-react-native/commit/fe7f8fe))
+- set versionName and versionCode properties when present ([ac4cf0c](https://github.com/flatbook/analytics-react-native/commit/ac4cf0c))
+- update typescript analytics wrapper ([71498c0](https://github.com/flatbook/analytics-react-native/commit/71498c0))
+
 <a name="0.0.1"></a>
 
 ## [0.0.1](https://github.com/flatbook/analytics-react-native/compare/v0.0.1-beta.2...v0.0.1) (2018-12-11)
