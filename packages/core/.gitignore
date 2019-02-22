@@ -1,1 +1,3 @@
 /README.md
+ios/Pods/*
+ios/RNAnalytics.xcworkspace/xcshareddata/*
