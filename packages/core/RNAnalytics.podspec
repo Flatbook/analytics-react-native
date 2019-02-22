@@ -20,6 +20,6 @@ Pod::Spec.new do |s|
   s.source_files        = 'ios/**/*.{m,h}'
   s.static_framework    = true
 
-  s.dependency          'SonderAnalytics', :git => 'https://github.com/Flatbook/analytics-ios.git'
+  s.dependency          'SonderAnalytics'
   s.dependency          'React'
 end
