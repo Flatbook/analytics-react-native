@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+
+# [0.2.0](https://github.com/flatbook/analytics-react-native/compare/v0.1.6...v0.2.0) (2019-02-23)
+
+### Features
+
+- use wrapper class to provide version codes ([eb2f2b0](https://github.com/flatbook/analytics-react-native/commit/eb2f2b0))
+
 <a name="0.1.6"></a>
 
 ## [0.1.6](https://github.com/flatbook/analytics-react-native/compare/v0.1.5...v0.1.6) (2019-02-22)
