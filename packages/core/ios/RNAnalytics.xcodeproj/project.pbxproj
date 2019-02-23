@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		AA023B0233C42E432C7D8744 /* libPods-RNAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA0F1F3EA0B778392887C8F7 /* libPods-RNAnalytics.a */; };
+		AA6E6E0C2220CAA6005049B2 /* RNAnalyticsDeviceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6E6E0B2220CAA6005049B2 /* RNAnalyticsDeviceInfo.m */; };
 		B3E7B58A1CC2AC0600A0062D /* RNAnalytics/RNAnalytics.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNAnalytics/RNAnalytics.m */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,8 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAnalytics.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA6E6E0A2220CAA6005049B2 /* RNAnalyticsDeviceInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RNAnalyticsDeviceInfo.h; path = RNAnalytics/RNAnalyticsDeviceInfo.h; sourceTree = "<group>"; };
+		AA6E6E0B2220CAA6005049B2 /* RNAnalyticsDeviceInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RNAnalyticsDeviceInfo.m; path = RNAnalytics/RNAnalyticsDeviceInfo.m; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNAnalytics/RNAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNAnalytics/RNAnalytics.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNAnalytics/RNAnalytics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNAnalytics/RNAnalytics.m; sourceTree = "<group>"; };
 		DA0F1F3EA0B778392887C8F7 /* libPods-RNAnalytics.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNAnalytics.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +56,8 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				AA6E6E0A2220CAA6005049B2 /* RNAnalyticsDeviceInfo.h */,
+				AA6E6E0B2220CAA6005049B2 /* RNAnalyticsDeviceInfo.m */,
 				B3E7B5881CC2AC0600A0062D /* RNAnalytics/RNAnalytics.h */,
 				B3E7B5891CC2AC0600A0062D /* RNAnalytics/RNAnalytics.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA6E6E0C2220CAA6005049B2 /* RNAnalyticsDeviceInfo.m in Sources */,
 				B3E7B58A1CC2AC0600A0062D /* RNAnalytics/RNAnalytics.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -6,6 +6,7 @@
 //
 
 #import "RNAnalytics.h"
+#import "RNAnalyticsDeviceInfo.h"
 
 #import <SonderAnalytics/SEGAnalytics.h>
 #import <React/RCTBridge.h>
@@ -35,12 +36,14 @@ RCT_EXPORT_MODULE()
 RCT_EXPORT_METHOD(setup:(NSDictionary*)options) {
     SEGAnalyticsConfiguration* config = [SEGAnalyticsConfiguration configurationWithWriteKey:options[@"writeKey"]];
     
+    RNAnalyticsDeviceInfo * info = [[RNAnalyticsDeviceInfo alloc] init];
+    
     config.recordScreenViews = [options[@"recordScreenViews"] boolValue];
     config.trackApplicationLifecycleEvents = [options[@"trackAppLifecycleEvents"] boolValue];
     config.trackAttributionData = [options[@"trackAttributionData"] boolValue];
     config.flushAt = [options[@"flushAt"] integerValue];
-    config.appVersion = [options[@"versionName"] stringValue];
-    config.appBuild = [options[@"versionCode"] stringValue];
+    config.appVersion = [info versionName];
+    config.appBuild = [info versionCode];
     config.enableAdvertisingTracking = [options[@"ios"][@"trackAdvertising"] boolValue];
 
     for(id factory in RNAnalyticsIntegrations) {
