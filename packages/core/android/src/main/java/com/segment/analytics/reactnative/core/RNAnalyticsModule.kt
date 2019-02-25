@@ -69,12 +69,14 @@ class RNAnalyticsModule(context: ReactApplicationContext): ReactContextBaseJavaM
             builder.logLevel(Analytics.LogLevel.VERBOSE)
         }
 
+        val deviceInfo = DeviceInfo(reactApplicationContext)
+
         if(options.hasKey("versionName")) {
-            builder.versionName(options.getString("versionName"))
+            builder.versionName(deviceInfo.versionName())
         }
 
         if(options.hasKey("versionCode")) {
-            builder.versionCode(options.getInt("versionCode"))
+            builder.versionCode(deviceInfo.versionCode())
         }
 
         try {
