@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^7.0.0",
-    "@commitlint/config-conventional": "^7.0.1",
+    "@commitlint/config-conventional": "^9.1.2",
     "codecov": "^3.0.4",
     "commitizen": "^2.10.1",
     "commitlint-circle": "^1.0.0",
