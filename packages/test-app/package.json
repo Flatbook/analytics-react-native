@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "detox": "^8.1.4",
-    "isomorphic-fetch": "^2.2.1",
+    "isomorphic-fetch": "^3.0.0",
     "mocha": "^5.2.0"
   },
   "detox": {
